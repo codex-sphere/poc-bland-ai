@@ -6,10 +6,11 @@ import { getAPI, postAPI } from './utils/api';
 function App() {
   const [callId, setCallID] = useState('94cac7cd-627f-4edc-ba97-d6baa369ef85');
   const [details, setDetails] = useState(null);
+  const [phoneNumber, setPhoneNumber] = useState(null);
 
   const callCustomer = async () => {
-    const response = await postAPI('/v1/calls', callRequestData);
-    console.log(response);
+    if (!phoneNumber) return null;
+    const response = await postAPI('/v1/calls', { ...callRequestData, phone_number: phoneNumber });
     if (response?.status === 'success') {
       setCallID(response.call_id);
     }
@@ -23,6 +24,7 @@ function App() {
   return (
     <>
       <div>POC Bland AI</div>
+      <input type="number" placeholder="Please enter phone number" onChange={(event) => setPhoneNumber(event.target.value)} />
       <button onClick={callCustomer}>Click me</button>
       {callId && <button onClick={callDetails}>Get me the call details</button>}
       {details?.transcripts?.length > 0 && details.transcripts.map(item => {
