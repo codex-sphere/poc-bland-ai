@@ -1,0 +1,41 @@
+10 Example AI Customer Discussion Prompts
+
+Prompt 1: Order Status Inquiry
+
+Description: The AI should simulate a conversation where the customer is asking for the status of their order. The AI will request the order number, fetch the order details, and provide the status (processing, shipped, etc.) in a helpful manner.
+
+Prompt 2: Product Return Request
+
+Description: The customer wants to return a product they purchased. The AI should ask for the order number, verify the return eligibility, and guide the customer through the return process in a professional and supportive tone.
+
+Prompt 3: Subscription Cancellation
+
+Description: A customer wants to cancel their subscription. The AI should express regret for the cancellation, ask for the reason, and process the cancellation smoothly while offering alternatives (e.g., discounts or plan changes) to retain the customer.
+
+Prompt 4: Technical Issue with Login
+
+Description: The customer is unable to log in to their account. The AI should troubleshoot by asking for specific information (e.g., error messages) and suggest steps like resetting the password or clearing the browser cache. The AI should maintain a reassuring and patient tone.
+
+Prompt 5: Payment Failure Assistance
+
+Description: The AI needs to help a customer who encountered a payment failure. The AI should ask for details of the issue (e.g., payment method, error message) and provide suggestions to resolve the problem, such as checking card details or retrying with a different method.
+
+Prompt 6: Delivery Delay
+
+Description: A customer is inquiring about a delay in their order delivery. The AI should express empathy, check the order status, provide an updated delivery estimate, and apologize for the inconvenience while reassuring the customer that their order will arrive soon.
+
+Prompt 7: Product Information Request
+
+Description: The customer wants more details about a product (e.g., features, specifications, availability). The AI should answer the questions based on product data and guide the customer toward making a purchase decision by highlighting key features.
+
+Prompt 8: Account Deletion Request
+
+Description: The AI needs to assist a customer who wants to delete their account. The AI should ask for confirmation, explain the consequences (e.g., loss of data), and proceed with the deletion while offering help with alternative solutions (e.g., account deactivation).
+
+Prompt 9: Refund Status Update
+
+Description: The AI is asked to provide an update on a refund request. It should check the refund status based on the customer’s information, inform them of the progress, and give an estimate of when the refund will be completed.
+
+Prompt 10: Customer Complaint
+
+Description: A customer is upset about a recent experience (e.g., poor product quality or customer service). The AI should listen to the complaint, acknowledge the issue, apologize sincerely, and offer a solution (e.g., replacement, refund, or further assistance).
