@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.ai-container {
+  padding: 20px;
+}
+
+.ai-header {
+  display: flex;
+  justify-content: center;
+}
+
+.ai-th{
+  width: 150px;
+}
+
+.ai-input {
+  margin: 0.5rem;
+  line-height: 1rem;
+  width: 200px;
+}
+
+.ai-btn {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 255, 0.562);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px lightgray;
+}

@@ -33,3 +33,15 @@ export const getAPI = async (endpoint) => {
         throw error;
     }
 };
+
+export const getServerAPI = async (endpoint) => {
+    try {
+        const response = await axios.get(`${endpoint}`, {
+            headers
+        });
+        return response.data;
+    } catch (error) {
+        console.error("API fetch error:", error);
+        throw error;
+    }
+};
